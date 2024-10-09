@@ -1,0 +1,16 @@
+{
+  "routes": [
+    {
+      "route": "/api/auth/*",
+      "headers": {
+        "cache-control": "no-store, must-revalidate"
+      }
+    },
+    {
+      "route": "/",
+      "headers": {
+        "cache-control": "no-store, must-revalidate"
+      }
+    }
+  ]
+}
