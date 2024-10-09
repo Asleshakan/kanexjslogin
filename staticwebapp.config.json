@@ -7,7 +7,7 @@
       }
     },
     {
-      "route": "/",
+      "route": "/*",
       "headers": {
         "cache-control": "no-store, must-revalidate"
       }
